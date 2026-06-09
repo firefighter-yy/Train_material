@@ -223,7 +223,7 @@ git commit
 git commit -m "feat: 添加用户登录功能"
 ```
 
-**提交信息规范**（Conventional Commits）：
+**提交信息规范**：
 - `feat:` 新功能
 - `fix:` 修复
 - `docs:` 文档
