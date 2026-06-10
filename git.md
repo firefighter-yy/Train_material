@@ -126,7 +126,7 @@ p {
 }
 </style>
 
-# git
+# git：版本控制入门
 - 分布式版本控制系统
 - **安装**：
 ```bash
@@ -180,6 +180,20 @@ git init
 
 ---
 
+# .gitignore — 忽略不需要的文件
+
+创建 `.gitignore` 文件，写入不需要 Git 跟踪的内容：
+
+```bash
+# 临时文件
+*.log
+*.tmp
+```
+
+> `git init` 后**第一时间**创建 `.gitignore` 是好习惯
+
+---
+
 # git status — 查看状态
 
 ```bash
@@ -210,6 +224,8 @@ git add .
 ```
 
 > 暂存区（Stage/Index）是提交前的"预览区"
+>
+>  `git add .` 会添加**所有**改动，建议先用 `git status` 确认范围
 
 ---
 
